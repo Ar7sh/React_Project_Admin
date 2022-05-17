@@ -1,11 +1,9 @@
-import { Button } from 'antd';
+import MainRouter from "routes";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Button type="primary">Button</Button>
-    </div>
+    <MainRouter />
   );
 }
 
